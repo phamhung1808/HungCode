@@ -1,0 +1,136 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.main-content {
+    max-width: 100%;
+    height: 2859px;
+    border:17px solid #fff;
+}
+
+.main-banner {
+    width: 100%;
+    position: relative;
+}
+
+.main-banner > img {
+    position: absolute;
+    width: 100%;
+    height: 885px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar > img {
+    position: absolute;
+    top: 38px;
+    left: 43px;
+}
+
+.navbar .nav {
+    position: absolute;
+    top: 38px;
+    right: 43px;
+}
+
+.nav .pre-nav {
+    color: #fff;
+    max-width: 14%;
+    padding: 7px 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 690px;
+}
+
+.nav .pre-nav:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.nav .subnav{
+    display: flex;
+}
+
+.nav li {
+    margin: 10px 15px;
+    padding: 7px 0;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    border-bottom: 1px solid #fff; 
+    transition:all 0.4s;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text {
+    position: absolute;
+    top: 300px;
+    left: 156px;
+}
+
+.text h1,h2,h3{
+    color: #fff;
+}
+
+.text h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'Effra-Medium', arial;
+    letter-spacing: 0.3em;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'Effra-Medium', arial;
+    font-size: 72px;
+    line-height: 0.9em;
+    margin: 0 0 10px;
+}
+
+.text h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-family: 'Effra-Regular', arial;
+    font-size: 21px;
+    margin: 0;
+}
+
+.text a {
+    display: inline-block;
+    margin-top: 45px;
+    padding: 17px 60px;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.text a:hover {
+    background:rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
+/* midle */
+
+.grid {
+    position: relative;
+    top: 900px;
+    width: 100%;
+    float: left;;
+}
+
+.midle .left {
+    width: 33.33333%;
+    background-color: grey;
+}
+
