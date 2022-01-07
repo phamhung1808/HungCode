@@ -28,7 +28,7 @@
     justify-content: space-between;
 }
 
-.navbar > img {
+.navbar > a > img {
     position: absolute;
     top: 38px;
     left: 43px;
